@@ -46,9 +46,16 @@ img {
     border-radius: 50%; /* Deixa a imagem circular */
     width: 150px; /* Largura da imagem */
     height: 150px; /* Altura da imagem */
+    cursor: pointer;
+}
+img:hover {
+  transform: scale(1.05); /* Aumenta levemente a imagem ao passar o mouse*/
+  transition: tranform 0.3s ease; /* Animação */
+
 }
 
 .foto-legenda {
+  color: darkgray;
     font-size: 12px;
     font-style: italic;
 }
